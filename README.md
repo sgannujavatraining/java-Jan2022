@@ -19,3 +19,12 @@ Offline work:
   - One of you create the project and define user stories and add others
   - Discussed Private and public. Also read about default and protected.
   - Read about bean methods (getters and setters)
+
+Feb2:
+  - Change default JSON format to XML in your sprigboot application.
+  - Add more fields to product and test productController
+  - Object oriented programming principles - Encapsulation 
+  - Source actions -> Generate Getter/Setters for private members of a class.
+  - Postman to test post request (REST API)  (Note: SOAPUI tool to test SOAP API)
+  - 2 main types of web services : REST and SOAP
+  - 
