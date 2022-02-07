@@ -311,18 +311,12 @@
 </div>
 
 <div class="content" role="main">
+  <h3 class="alert">{{error}}</h3>
+
   <h2>Products</h2>
-  <ul>
-    <li>
-      mask1
-    </li>
-    <li>
-      p2
-    </li>
-    <li>
-      p3
-    </li>
-  </ul>
+  <div *ngFor="let product of products">
+    <app-product [product]="product"></app-product>
+  </div>
 
   <div>
     <h2>Payment</h2>
