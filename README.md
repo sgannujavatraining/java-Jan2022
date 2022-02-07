@@ -27,4 +27,4 @@ Feb2:
   - Source actions -> Generate Getter/Setters for private members of a class.
   - Postman to test post request (REST API)  (Note: SOAPUI tool to test SOAP API)
   - 2 main types of web services : REST and SOAP
-  - 
+  - do "git pull" on this repo in your laptop to get latest code
