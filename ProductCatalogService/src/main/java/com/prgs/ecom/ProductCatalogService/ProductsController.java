@@ -8,8 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-   this is multi line
-   comment
+   this is multi line comment
    ----
   */
 @RestController

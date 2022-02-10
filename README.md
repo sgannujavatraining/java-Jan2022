@@ -28,3 +28,10 @@ Feb2:
   - Postman to test post request (REST API)  (Note: SOAPUI tool to test SOAP API)
   - 2 main types of web services : REST and SOAP
   - do "git pull" on this repo in your laptop to get latest code
+
+Feb 9:
+  - Service layer
+  - read about IOC (Spring Core module)
+  - Read about Dependency Injection
+  - TODO: create PaymentService and add CC functions to be called from OrderController
+  - TODO: Just like services sub package move all model classes (eg. Order, Address etc) to its own sub packge(model)
