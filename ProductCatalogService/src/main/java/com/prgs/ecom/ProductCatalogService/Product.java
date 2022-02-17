@@ -9,7 +9,7 @@ public class Product {
 	}
 
 	public void setPrice(int price) {
-		if (price <= 0)
+		if (price <= 0 || price > 100000)
 			throw new RuntimeException("Invalid price");
 		this.price = price;
 	}

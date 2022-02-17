@@ -7,14 +7,21 @@ import org.springframework.stereotype.Service;
 @Service // IOC
 public class ProductInventoryService {
   
+  @Autowired 
+  ProductRepository productRepo;
   public int checkProductAvailability(Product product) {
-    // check the Inventory table in database
-    return 1;
+    Product p = getProductById(product.getId());
+
+    return p.getAvailableQuantity;
   }
 
   // Once an order is created - reduce the quantity in inventory
   public boolean purchase(Product product, int quantity) {
 
     return true;
+  }
+
+  public Product getProductById(int id) {
+    return productRepo.findById(id).get();  
   }
 }

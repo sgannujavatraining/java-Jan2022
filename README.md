@@ -34,4 +34,19 @@ Feb 9:
   - read about IOC (Spring Core module)
   - Read about Dependency Injection
   - TODO: create PaymentService and add CC functions to be called from OrderController
-  - TODO: Just like services sub package move all model classes (eg. Order, Address etc) to its own sub packge(model)
+  - TODO: Just like services sub package move all model classes (eg. Order, Address etc) to its own sub packge(model). Also move controllers to its own sub package.
+
+Feb 10:
+  - Client side rendering VS Server side rendering.
+  - Single Page Application vs Multi page application
+
+Feb 13: 
+  - setup database and use of other Spring module
+  - H2 database setup. Access console at http://localhost:8080/h2-console to see the Database tables and data.
+
+Feb-16:
+  - Annotation guide (https://www.baeldung.com/java-custom-annotation)
+  - Access modifiers (public, default, protected, private) and Inheritance (https://www.w3schools.com/java/java_modifiers.asp)
+  - Conditions(if-else, ternary, switch-case) and loops (while, for, do-while)
+    (https://www.w3schools.com/java/java_conditions.asp)
+  - Exceptions
